@@ -50,6 +50,8 @@ print(round(p4, 2))
 p5 = ((lamda / miu) ** 5) * (1 / (1 * 23 * 4 * 5)) * p0
 print(round(p5, 2))
 
+p6 = 
+
 banyaknya_antri = (1 * p4) + (2 * p5)
 print(round(banyaknya_antri, 2))
 
@@ -112,3 +114,4 @@ print(round(pendapatan_perhari, 2))
 
 # waktu_mesin_beroprasi = banyaknya_mesin - banyaknya_mesin_macet
 # print(waktu_mesin_beroprasi)
+

@@ -112,3 +112,5 @@ print(round(pendapatan_perhari, 2))
 
 # waktu_mesin_beroprasi = banyaknya_mesin - banyaknya_mesin_macet
 # print(waktu_mesin_beroprasi)
+
+p6 = 
