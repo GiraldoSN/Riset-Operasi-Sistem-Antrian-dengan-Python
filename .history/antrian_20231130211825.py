@@ -57,10 +57,10 @@ lama_antri = banyaknya_antri * rate_kedatangan
 print("Rata-rata lama antri =", round(lama_antri, 2))
 
 Utilitas_komputer = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p3) + (4 * p4) + (5 * p5)) / 3
-print("Utilitas Komputer =", round(Utilitas_komputer, 2))
+print(", round(Utilitas_komputer, 2))
 
 pendapatan_perhari = (1 - p5) * 2 * 8 * 1000
-print("Rata-rata pendapatan per hari", round(pendapatan_perhari, 2))
+print(round(pendapatan_perhari, 2))
 
 # Soal nomor 4
 lamda = 5

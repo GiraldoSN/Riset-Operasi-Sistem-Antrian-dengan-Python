@@ -60,7 +60,7 @@ Utilitas_komputer = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p3) + (4 * p4) + (5 *
 print("Utilitas Komputer =", round(Utilitas_komputer, 2))
 
 pendapatan_perhari = (1 - p5) * 2 * 8 * 1000
-print("Rata-rata pendapatan per hari", round(pendapatan_perhari, 2))
+print("RA", round(pendapatan_perhari, 2))
 
 # Soal nomor 4
 lamda = 5

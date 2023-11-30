@@ -39,28 +39,30 @@ p1 = (lamda / miu) * p0
 print("P1 =", round(p1, 2))
 
 p2 = ((lamda / miu) ** 2) * (1 / (1 * 2)) * p0
-print("P2 =", round(p2, 2))
+print("",round(p2, 2))
 
 p3 = ((lamda / miu) ** 3) * (1 / (1 * 2)) * p0
-print("P3 =", round(p3, 2))
+print(round(p3, 2))
 
 p4 = ((lamda / miu) ** 4) * (1 / (1 * 2 * 3 * 4)) * p0
-print("P4 =", round(p4, 2))
+print(round(p4, 2))
 
 p5 = ((lamda / miu) ** 5) * (1 / (1 * 23 * 4 * 5)) * p0
-print("P5 =",round(p5, 2))
+print(round(p5, 2))
 
 banyaknya_antri = (1 * p4) + (2 * p5)
-print("Banyaknya yang antri", round(banyaknya_antri, 2))
+print(round(banyaknya_antri, 2))
 
 lama_antri = banyaknya_antri * rate_kedatangan
-print("Rata-rata lama antri =", round(lama_antri, 2))
+print(round(lama_antri, 2))
 
-Utilitas_komputer = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p3) + (4 * p4) + (5 * p5)) / 3
-print("Utilitas Komputer =", round(Utilitas_komputer, 2))
+Utilitas_komputer = (
+    (0 * p0) + (1 * p1) + (2 * p2) + (3 * p3) + (4 * p4) + (5 * p5)
+) / 3
+print(round(Utilitas_komputer, 2))
 
 pendapatan_perhari = (1 - p5) * 2 * 8 * 1000
-print("Rata-rata pendapatan per hari", round(pendapatan_perhari, 2))
+print(round(pendapatan_perhari, 2))
 
 # Soal nomor 4
 lamda = 5
