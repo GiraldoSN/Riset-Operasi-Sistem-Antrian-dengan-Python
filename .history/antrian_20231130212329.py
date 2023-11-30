@@ -3,28 +3,28 @@ lamda = 1
 miu = 1 / 2
 
 p0 = 1 / (109 / 15)
-print("P0 =", round(p0, 2))
+print(round(p0, 2))
 
 p1 = (lamda / miu) * p0
-print("P1 =", round(p1, 2))
+print(round(p1, 2))
 
 p2 = ((lamda / miu) ** 2) * (1 / (1 * 2)) * p0
-print("P2 =", round(p2, 2))
+print(round(p2, 2))
 
 p3 = ((lamda / miu) ** 3) * (1 / (1 * 2 * 3)) * p0
-print("P3 =", round(p3, 2))
+print(round(p3, 2))
 
 p4 = ((lamda / miu) ** 4) * (1 / (1 * 2 * 3 * 4)) * p0
-print("P4 =",round(p4, 2))
+print(round(p4, 2))
 
 p5 = ((lamda / miu) ** 5) * (1 / (1 * 2 * 3 * 4 * 5)) * p0
-print("P5 =", round(p5, 2))
+print(round(p5, 2))
 
 saluran_sibuk = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p2) + (4 * p4) + (5 * p5)) * p0
-print("Rata-rata saluran sibuk =",round(saluran_sibuk, 2))
+print(round(saluran_sibuk, 2))
 
 proporsi_ditolak = saluran_sibuk * 100
-print("Rata-rata proporsi ditolak =", round(proporsi_ditolak, 2), "%")
+print(round(proporsi_ditolak, 2), "%")
 
 # Soal nomor 2
 lamda = 2
@@ -109,4 +109,4 @@ lama_macet = lama_antri + laju_pelayanan
 print("Rata-rata lama macet", round(lama_macet, 2))
 
 waktu_mesin_beroprasi = banyaknya_mesin - banyaknya_mesin_macet
-print("Rata-rata waktu mesin beroprasi =", round (waktu_mesin_beroprasi, 2))
+print("=", round (waktu_mesin_beroprasi, 2))

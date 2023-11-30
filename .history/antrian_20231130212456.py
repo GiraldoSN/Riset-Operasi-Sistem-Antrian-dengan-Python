@@ -15,16 +15,16 @@ p3 = ((lamda / miu) ** 3) * (1 / (1 * 2 * 3)) * p0
 print("P3 =", round(p3, 2))
 
 p4 = ((lamda / miu) ** 4) * (1 / (1 * 2 * 3 * 4)) * p0
-print("P4 =",round(p4, 2))
+print("",round(p4, 2))
 
 p5 = ((lamda / miu) ** 5) * (1 / (1 * 2 * 3 * 4 * 5)) * p0
-print("P5 =", round(p5, 2))
+print(round(p5, 2))
 
 saluran_sibuk = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p2) + (4 * p4) + (5 * p5)) * p0
-print("Rata-rata saluran sibuk =",round(saluran_sibuk, 2))
+print(round(saluran_sibuk, 2))
 
 proporsi_ditolak = saluran_sibuk * 100
-print("Rata-rata proporsi ditolak =", round(proporsi_ditolak, 2), "%")
+print(round(proporsi_ditolak, 2), "%")
 
 # Soal nomor 2
 lamda = 2

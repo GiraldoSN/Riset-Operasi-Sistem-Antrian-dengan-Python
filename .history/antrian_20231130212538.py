@@ -24,7 +24,7 @@ saluran_sibuk = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p2) + (4 * p4) + (5 * p5)
 print("Rata-rata saluran sibuk =",round(saluran_sibuk, 2))
 
 proporsi_ditolak = saluran_sibuk * 100
-print("Rata-rata proporsi ditolak =", round(proporsi_ditolak, 2), "%")
+print("", round(proporsi_ditolak, 2), "%")
 
 # Soal nomor 2
 lamda = 2

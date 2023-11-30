@@ -21,10 +21,10 @@ p5 = ((lamda / miu) ** 5) * (1 / (1 * 2 * 3 * 4 * 5)) * p0
 print("P5 =", round(p5, 2))
 
 saluran_sibuk = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p2) + (4 * p4) + (5 * p5)) * p0
-print("Rata-rata saluran sibuk =",round(saluran_sibuk, 2))
+print("Ratasaluran sibuk",round(saluran_sibuk, 2))
 
 proporsi_ditolak = saluran_sibuk * 100
-print("Rata-rata proporsi ditolak =", round(proporsi_ditolak, 2), "%")
+print(round(proporsi_ditolak, 2), "%")
 
 # Soal nomor 2
 lamda = 2
