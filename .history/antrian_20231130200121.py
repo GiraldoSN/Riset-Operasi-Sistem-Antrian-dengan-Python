@@ -33,10 +33,10 @@ miu = 1
 s = 3
 
 p0 = 1 / (1 + (lamda / miu))
-print("P0 =", round(p0, 2))
+print("P0",round(p0, 2))
 
 p1 = (lamda / miu) * p0
-print("P1 =", round(p1, 2))
+print(round(p1, 2))
 
 p2 = ((lamda / miu) ** 2) * (1 / (1 * 2)) * p0
 print(round(p2, 2))
