@@ -70,7 +70,7 @@ pendapatan_perhari = (1 - p5) * 2 * 8 * 1000
 print("Rata-rata pendapatan per hari", round(pendapatan_perhari, 2))
 
 # Soal nomor 4
-print("")
+()
 print("Soal nomor 4")
 lamda = 5
 laju_pelayanan = lamda

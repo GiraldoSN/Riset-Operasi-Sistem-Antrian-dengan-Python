@@ -69,9 +69,7 @@ print("Utilitas Komputer =", round(Utilitas_komputer, 2))
 pendapatan_perhari = (1 - p5) * 2 * 8 * 1000
 print("Rata-rata pendapatan per hari", round(pendapatan_perhari, 2))
 
-# Soal nomor 4
-print("")
-print("Soal nomor 4")
+# Soal nomor 4print("")
 lamda = 5
 laju_pelayanan = lamda
 banyaknya_mesin = laju_pelayanan

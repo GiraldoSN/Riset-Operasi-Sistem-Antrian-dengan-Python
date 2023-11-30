@@ -15,28 +15,23 @@ p3 = ((lamda / miu) ** 3) * (1 / (1 * 2 * 3)) * p0
 print("P3 =", round(p3, 2))
 
 p4 = ((lamda / miu) ** 4) * (1 / (1 * 2 * 3 * 4)) * p0
-print("P4 =", round(p4, 2))
+print("P4 =",round(p4, 2))
 
 p5 = ((lamda / miu) ** 5) * (1 / (1 * 2 * 3 * 4 * 5)) * p0
 print("P5 =", round(p5, 2))
 
 saluran_sibuk = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p2) + (4 * p4) + (5 * p5)) * p0
-print("Rata-rata saluran sibuk =", round(saluran_sibuk, 2))
+print("Rata-rata saluran sibuk =",round(saluran_sibuk, 2))
 
 proporsi_ditolak = saluran_sibuk * 100
 print("Rata-rata proporsi ditolak =", round(proporsi_ditolak, 2), "%")
 
-print("")
-print("Soal Nomor 2")
-print("""lamda = 2
-rate_kedatangan = 2
-miu = 1
-s = 3
-""")
+print("Soal ")
 lamda = 2
 rate_kedatangan = 2
 miu = 1
 s = 3
+
 p0 = 1 / (1 + (lamda / miu))
 print("P0 =", round(p0, 2))
 
@@ -53,7 +48,7 @@ p4 = ((lamda / miu) ** 4) * (1 / (1 * 2 * 3 * 4)) * p0
 print("P4 =", round(p4, 2))
 
 p5 = ((lamda / miu) ** 5) * (1 / (1 * 23 * 4 * 5)) * p0
-print("P5 =", round(p5, 2))
+print("P5 =",round(p5, 2))
 
 banyaknya_antri = (1 * p4) + (2 * p5)
 print("Banyaknya yang antri", round(banyaknya_antri, 2))
@@ -61,17 +56,13 @@ print("Banyaknya yang antri", round(banyaknya_antri, 2))
 lama_antri = banyaknya_antri * rate_kedatangan
 print("Rata-rata lama antri =", round(lama_antri, 2))
 
-Utilitas_komputer = (
-    (0 * p0) + (1 * p1) + (2 * p2) + (3 * p3) + (4 * p4) + (5 * p5)
-) / 3
+Utilitas_komputer = ((0 * p0) + (1 * p1) + (2 * p2) + (3 * p3) + (4 * p4) + (5 * p5)) / 3
 print("Utilitas Komputer =", round(Utilitas_komputer, 2))
 
 pendapatan_perhari = (1 - p5) * 2 * 8 * 1000
 print("Rata-rata pendapatan per hari", round(pendapatan_perhari, 2))
 
 # Soal nomor 4
-print("")
-print("Soal nomor 4")
 lamda = 5
 laju_pelayanan = lamda
 banyaknya_mesin = laju_pelayanan
@@ -91,7 +82,7 @@ print("P2 =", round(p2))
 # jadi nilai p2 =
 
 p3 = ((lamda / miu) ** 3) * p0
-print("P3 =", round(p3))
+print("P3 =",round(p3))
 # jadi nilai p3 =
 
 p4 = ((lamda / miu) ** 4) * p0
@@ -107,7 +98,7 @@ banyaknya_mesin_macet = (0 * p0) + (1 * p1) + (2 * p2) + (3 * p3) + (4 * p4) + (
 print("Banyaknya mesin yang rusak =", banyaknya_mesin_macet)
 
 banyak_antri = (1 * p4) + (2 * p5)
-print("Banyaknya yang antri =", round(banyak_antri))
+print("Banyaknya yang antri =",round(banyak_antri))
 # jadi nilai banyak_antri =
 
 lama_antri = banyak_antri / laju_pelayanan
@@ -118,4 +109,4 @@ lama_macet = lama_antri + laju_pelayanan
 print("Rata-rata lama macet", round(lama_macet, 2))
 
 waktu_mesin_beroprasi = banyaknya_mesin - banyaknya_mesin_macet
-print("Rata-rata waktu mesin beroprasi =", round(waktu_mesin_beroprasi, 2))
+print("Rata-rata waktu mesin beroprasi =", round (waktu_mesin_beroprasi, 2))

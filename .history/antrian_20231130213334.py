@@ -28,15 +28,12 @@ print("Rata-rata proporsi ditolak =", round(proporsi_ditolak, 2), "%")
 
 print("")
 print("Soal Nomor 2")
-print("""lamda = 2
-rate_kedatangan = 2
-miu = 1
-s = 3
+print("""
+Ini baris pertama.
+
+Ini baris ketiga.
 """)
-lamda = 2
-rate_kedatangan = 2
-miu = 1
-s = 3
+
 p0 = 1 / (1 + (lamda / miu))
 print("P0 =", round(p0, 2))
 
@@ -70,8 +67,6 @@ pendapatan_perhari = (1 - p5) * 2 * 8 * 1000
 print("Rata-rata pendapatan per hari", round(pendapatan_perhari, 2))
 
 # Soal nomor 4
-print("")
-print("Soal nomor 4")
 lamda = 5
 laju_pelayanan = lamda
 banyaknya_mesin = laju_pelayanan
