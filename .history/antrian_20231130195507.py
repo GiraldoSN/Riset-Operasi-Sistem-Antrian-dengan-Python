@@ -114,5 +114,4 @@ print(round(pendapatan_perhari, 2))
 # print(waktu_mesin_beroprasi)
 
 
-print("aldo kontol")
-print("bla bla bla")
+print()

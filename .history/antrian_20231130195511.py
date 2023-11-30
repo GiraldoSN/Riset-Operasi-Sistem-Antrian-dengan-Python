@@ -115,4 +115,3 @@ print(round(pendapatan_perhari, 2))
 
 
 print("aldo kontol")
-print("bla bla bla")
